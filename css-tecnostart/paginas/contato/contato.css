@@ -39,3 +39,15 @@ li {
     text-align: center;
     padding-bottom: 20px;
 }
+
+fieldset {
+    width: 800px;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.botao {
+    background-color: chartreuse;
+    align-items: center;
+    margin-left: 350px;
+}

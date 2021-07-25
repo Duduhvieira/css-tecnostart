@@ -19,7 +19,50 @@
         </nav>
     </header>
     <main>
+        <form action="post">
+            <fieldset>
+                <h2>Dados pessoais:</h2>
+                <label for="nome"> Nome:</label>
+                <input type="text" name="Nome" id="nome" required>
+                <label for="sobrenome">sobrenome</label>
+                <input type="text" name="Sobrenome" id="sobrenome" required>
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" name="datadenascimento" id="nascimento" required>
+                <h2>Sexo</h2>
+                <label>
+                    <input type="radio" name="sexo" id=radio-1 value="m" checked>Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" id=radio-2 value="f">Feminino
+                </label>
+                <label>
+                    <input type="radio" name="sexo"id=radio-3 value="l">Lgbt
+                </label>
+                <h2>Dados de contato</h2>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <h2>Dados academicos</h2>
+                <label>Escolaridade
+                    <select name="Escolaridade" required>
+                        <option value="Analfabeto">Analfabeto</option>
+                        <option value="Fundamental Incompleto">Fundamental Incompleto</option>
+                        <option value="Fundamental Completo">Fundamental Completo</option>
+                        <option value="Ensino Médio Incompleto">Ensino Médio Incompleto</option>
+                        <option value="Ensino Médio Completo">Ensino Médio Completo</option>
+                        <option value="Ensino Técnico Incompleto">Ensino Técnico Incompleto</option>
+                        <option value="Ensino Técnico Completo">Ensino Técnico Completo</option>
+                        <option value="Ensino Superior Incompleto">Ensino Superior Incompleto</option>
+                        <option value="Ensino Superior Completo">Ensino Superior Completo</option>                      
+                        <option value="" selected disabled>Selecione A Escolaridade</option>
+                    </select>
+                </label>
+                <br> <br>
+                <input type="submit" value="Cadastrar aluno" class="botao">
 
+            </fieldset>
+        </form>
     </main>
     <br>
     <br>
